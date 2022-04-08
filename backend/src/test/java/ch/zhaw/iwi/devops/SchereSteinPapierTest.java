@@ -5,6 +5,7 @@ import org.junit.Test;
 import ch.zhaw.iwi.devops.SchereStein.SchereSteinPapier;
 
 public class SchereSteinPapierTest {
+    
     @Test
     public void SchereVerliertStein(){
         SchereSteinPapier eingabe = new SchereSteinPapier();
