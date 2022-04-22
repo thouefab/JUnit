@@ -6,6 +6,9 @@ public class SchereSteinPapier {
         if(SpielerA == "Schere" && SpielerB == "Stein"){
             return "Stein gewinnt";
         }
+        if(SpielerA == "Schere" && SpielerB == "Papier"){
+            return "Schere gewinnt";
+        }
         return "";
     }
     
