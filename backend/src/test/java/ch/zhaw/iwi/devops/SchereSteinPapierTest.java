@@ -6,7 +6,7 @@ import ch.zhaw.iwi.devops.SchereStein.SchereSteinPapier;
 
 public class SchereSteinPapierTest {
     
-    //Testfall 1: Schere verleiert gegen Stein
+    //Testfall 1: Schere verliert gegen Stein
     @Test
     public void SchereVerliertStein(){
         SchereSteinPapier eingabe = new SchereSteinPapier();
@@ -27,5 +27,13 @@ public class SchereSteinPapierTest {
         SchereSteinPapier eingabe = new SchereSteinPapier();
         String result = eingabe.Convert("Schere", "Schere");
         Assert.assertEquals("Unentschieden", result);
+    }
+
+    //Testfall 4: Papier schlaegt Stein
+    @Test
+    public void SteinVerliertPapier(){
+        SchereSteinPapier eingabe = new SchereSteinPapier();
+        String result = eingabe.Convert("Stein", "Papier");
+        Assert.assertEquals("Papier gewinnt", result);
     }
 }
