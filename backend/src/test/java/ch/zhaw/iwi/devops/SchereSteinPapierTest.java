@@ -12,5 +12,6 @@ public class SchereSteinPapierTest {
         String result = eingabe.Convert("Schere", "Stein");
         Assert.assertEquals("Stein gewinnt", result);
     }
+    //Test MBA
     
 }
