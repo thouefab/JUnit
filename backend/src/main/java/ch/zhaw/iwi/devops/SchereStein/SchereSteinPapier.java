@@ -30,6 +30,9 @@ public class SchereSteinPapier {
         if(SpielerA == "Papier" && SpielerB == "Echse") {
 			return "Echse gewinnt";
 		}
+        if(SpielerA == "Spock" && SpielerB == "Echse") {
+			return "Echse gewinnt";
+		}
         return "";
     }
     
