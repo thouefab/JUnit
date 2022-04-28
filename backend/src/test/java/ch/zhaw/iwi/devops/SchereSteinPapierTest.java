@@ -64,4 +64,11 @@ public class SchereSteinPapierTest {
         String result = eingabe.Convert("Papier", "Schere");
         Assert.assertEquals("Schere gewinnt", result);
     }
+    //Testfall 9: Echse schlaegt Papier
+    @Test
+    public void PapierVerliertEchse(){
+        SchereSteinPapier eingabe = new SchereSteinPapier();
+        String result = eingabe.Convert("Papier", "Echse");
+        Assert.assertEquals("Echse gewinnt", result);
+    }
 }
