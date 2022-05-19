@@ -79,3 +79,4 @@ public class SchereSteinPapierTest {
         Assert.assertEquals("Echse gewinnt", result);
     }
 }
+// Hallo
