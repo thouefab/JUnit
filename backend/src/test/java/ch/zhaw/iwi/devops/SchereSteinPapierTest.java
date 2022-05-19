@@ -80,3 +80,4 @@ public class SchereSteinPapierTest {
     }
 }
 // Hallo
+// Hallo
