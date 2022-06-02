@@ -21,6 +21,18 @@ public class SchereSteinPapier {
         if(SpielerA == "Papier" && SpielerB == "Stein"){
             return "Papier gewinnt";
         }
+        if(SpielerA == "Papier" && SpielerB == "Papier"){
+            return "Unentschieden";
+        }
+        if(SpielerA == "Papier" && SpielerB == "Schere"){
+            return "Schere gewinnt";
+        }
+        if(SpielerA == "Papier" && SpielerB == "Echse") {
+			return "Echse gewinnt";
+		}
+        if(SpielerA == "Spock" && SpielerB == "Echse") {
+			return "Echse gewinnt";
+		}
         return "";
     }
     
